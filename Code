@@ -1,0 +1,35 @@
+import java.util.Scanner;
+ 
+class Calculations
+{
+   public static void main(String args[])
+   {
+      int num1,num2,result;
+       Scanner scan = new Scanner(System.in);
+       
+      System.out.println("Enter Your First Number  ");
+      num1 = scan.nextInt();
+      
+      System.out.println("Enter Your Second Number  ");
+       num2 = scan.nextInt();
+     
+      result = num1 + num2;
+     
+ 
+      System.out.println("Sum of entered numbers = "+result);
+      
+      result = num1 - num2;
+      
+      System.out.println("Difference of entered numbers = "+ result);
+      
+      result = num1 / num2;
+    		  
+      System.out.println("Quotient of entered numbers = "+result);
+      
+      result = num1 * num2;
+      
+      System.out.println("Product of entered numbers = "+result);
+      
+      if (result == 1) System.out.print (""+ result); 
+   }
+}
